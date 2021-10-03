@@ -110,7 +110,8 @@ namespace NeoRoyale
 			//NeoPlayer.SkinOverride = L"Test";
 
 			NeoPlayer.ApplyOverride();
-
+                         
+//Flying support	//NeoPlayer.SetMovementMode(EMovementMode::MOVE_Flying, 1);
 			NeoPlayer.SetMovementSpeed(1.1);
 
 			const auto PlaylistName = gPlaylist->GetName();
